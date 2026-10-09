@@ -1,0 +1,47 @@
+creation-cost: 2500.0
+money-format: "%,.2f"
+top-limit: 10
+disband-confirm-seconds: 30
+
+names:
+  min-length: 3
+  max-length: 16
+  regex: "[A-Za-z0-9_-]+"
+
+claim:
+  initial-limit: 10
+  require-adjacent: true
+  # Vide = tous les mondes
+  allowed-worlds: []
+
+members:
+  initial-limit: 10
+
+bank:
+  base-interest-percent: 2.0
+  interest-period-days: 7
+  max-balance: 1000000000000.0
+  max-catchup-cycles: 8
+
+upgrades:
+  money-from-bank: true
+  mob-spawn-max-multiplier: 2.0
+
+# Integration zMenu : laissez vide pour utiliser le texte natif.
+# Exemple: "zm open royaume_bank %player%"
+menu-hooks:
+  main: ""
+  bank: ""
+  settings: ""
+  members: ""
+  upgrade: ""
+  top: ""
+
+# Provider de gems generique via PlaceholderAPI.
+# Exemple PlayerPoints : adaptez le placeholder et la commande a votre plugin.
+gems:
+  balance-placeholder: ""
+  withdraw-command: ""
+
+storage:
+  autosave-minutes: 5

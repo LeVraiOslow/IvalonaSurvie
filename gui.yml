@@ -1,0 +1,8 @@
+# Ce fichier est uniquement un exemple de metadata pour vos menus zMenu/Nexo.
+# Le plugin n'impose aucun GUI : utilisez les commandes /ro et les placeholders PAPI.
+icons:
+  bank: {nexo-id: "royaume_bank", material: GOLD_INGOT, name: "&#FFD95C&lBANQUE"}
+  settings: {nexo-id: "royaume_settings", material: COMPARATOR, name: "&#FFD95C&lPARAMETRES"}
+  members: {nexo-id: "royaume_members", material: PLAYER_HEAD, name: "&#FFD95C&lMEMBRES"}
+  upgrades: {nexo-id: "royaume_upgrades", material: NETHER_STAR, name: "&#FFD95C&lAMELIORATIONS"}
+  top: {nexo-id: "royaume_top", material: GOLD_BLOCK, name: "&#FFD95C&lCLASSEMENT"}

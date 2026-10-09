@@ -1,0 +1,32 @@
+# true = autorise la fonctionnalite dans le claim ; false = protegee/bloquee.
+defaults:
+  pvp: false
+  explosions: false
+  doors: false
+  trapdoors: false
+  buttons: false
+  levers: false
+  containers: false
+  pistons: false
+  lava: false
+  water: false
+  fire: false
+  entity-interact: false
+  vehicles: false
+  mob-griefing: false
+  outsiders-interact: false
+
+# Permissions internes des roles. Le chef (OWNER) a toujours tout.
+roles:
+  OFFICER:
+    - CLAIM
+    - UNCLAIM
+    - INVITE
+    - KICK
+    - BAN
+    - BANK_DEPOSIT
+    - BANK_WITHDRAW
+    - SETTINGS
+    - UPGRADE
+  MEMBER:
+    - BANK_DEPOSIT
